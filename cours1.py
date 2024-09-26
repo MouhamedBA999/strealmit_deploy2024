@@ -49,7 +49,7 @@ customers= pd.read_csv('Churn_Modelling.csv')
 st.dataframe(customers.iloc[10:15])
 #st.dataframe(customers[["Geography", "Exited"]])
 
-pip install scikit-learn
+#pip install scikit-learn
 from sklearn import datasets
 #iris=datasets.load_iris()
 #st.dataframe(iris)
